@@ -26,7 +26,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 Pull the code from GIT and run the main class as "Java Application".
 Ensure that JDK and Maven are installed.
-Or you can build the executable jar and run it with "java -jar <jar_name> command.
+Build the executable jar and run it with "java -jar <jar_name> command.
 
 #### How to run
 
@@ -34,12 +34,12 @@ Build using maven
 ```
 mvn clean install
 ```
-If you want to skip the JUnit test cases
+To execute JUnit test cases, use
 ```
-mvn clean install -DskipTests=true
+mvn clean test
 ```
 Executable JAR will be generated in the <project-directory>/target
-To execute the runnable JAR:
+To execute the runnable JAR, use:
 ```
 java -jar .\traffic-signals-management-1.0.0-SNAPSHOT.jar
 ```
