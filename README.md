@@ -23,24 +23,28 @@ These instructions will get you a copy of the project up and running on your loc
 
 Prerequisites
 
-What things you need to install the software and how to install them
+Ensure you have eclipse installed to pull the code and run the main class as "Java Application".
+Ensure that JDK is installed.
+Or you can build the executable jar and run it with "java -jar <jar_name> command.
 
 Running the tests
 
-Explain how to run the automated tests for this system
+JUnits can run as "Run As -> JUnit Test
 
-Break down into end to end tests
-
-Explain what these tests test and why
 
 Give an example
-And coding style tests
-Explain what these tests test and why
 
-Give an example
+Sample result:
+Run as "Java Application"
+Sample output from console is:
+
+
+When the executable JAR is run with "java -jar" command, sample output in command prompt is:
+
 
 Deployment
-Add additional notes about how to deploy this on a live system
+Since this is a simple executable JAR, there is no deployment instructions.
+But, if needed, we can build a WAR deployable project and deploy this app on a light weight application server like tomcat/jetty etc.
 
 Built With
 
