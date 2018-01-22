@@ -71,9 +71,6 @@ Program output:
 20: N = 13; S = 13; E = 16; W = 16
 
 ```
-Run as "Java Application"
-Sample output from console is:
-![Alt text](https://github.com/PhaniMangisetti/traffic-signals-management/blob/master/img/EclipseConsoleOutput.JPG?raw=true "Eclipse Console Output")
 
 When the executable JAR is run with "java -jar" command, sample output in command prompt is:
 ![Alt text](https://github.com/PhaniMangisetti/traffic-signals-management/blob/master/img/sampleOutput.JPG?raw=true "Executable Jar Output")
