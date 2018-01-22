@@ -9,10 +9,15 @@ import com.traffic.signals.vo.TrafficDetails;
 public class TrafficSignalsManagementMain {
 
 	/**
+	 * The Traffic Singals Management implements an application that simply displays the state
+	 * of signals to the standard output for a 4-directioal junction withing any turning traffic.
 	 * Call the updateTrafficInfo method with 0 as currentCount to intialize the HashMap.
 	 * Call the method again in a for loop, say 20 occurances to display the current state 
 	 * of the vehicles that gets accumulated at the signal.
 	 * @param args
+	 * @author Phanikumar Mangisetti
+	 * @version 1.0
+	 * @since 2018-01-21
 	 */
 	public static void main(String[] args) {
 		TrafficDetails trafficDetails = new TrafficDetails();
