@@ -40,7 +40,7 @@ Sample output from console is:
 
 
 When the executable JAR is run with "java -jar" command, sample output in command prompt is:
-
+![Alt text](https://github.com/PhaniMangisetti/traffic-signals-management/blob/master/img/sampleOutput.JPG?raw=true "Sample Output")
 
 Deployment
 Since this is a simple executable JAR, there is no deployment instructions.
