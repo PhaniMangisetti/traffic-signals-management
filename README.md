@@ -45,7 +45,7 @@ java -jar .\traffic-signals-management-1.0.0-SNAPSHOT.jar
 ```
 
 
-Sample result:
+Program output:
 
 ```
 0: N = 0; S = 0; E = 0; W = 0
@@ -89,6 +89,4 @@ Maven - Dependency Management
 
 Phanikumar Mangisetti
 
-#### License
 
-None
