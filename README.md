@@ -1,4 +1,4 @@
-Traffic Signals Management
+#### Traffic Signals Management
 
 This program controls the traffic signals for a four-way intersection. Initially, consider traffic flowing in straight lines only, no turns. The four directions are S(outhbound) and N(orthbound) on Snell Rd; and W(estbound) and E(astbound) on Weaver Rd. The traffic lights should obey the following rules:
 
@@ -17,23 +17,35 @@ This program controls the traffic signals for a four-way intersection. Initially
 7. The output should be the number of cars that are waiting at the intersection in each direction at each second, for the first 20 seconds. Do not make the program wait 20 seconds to produce the output: this is only a simulation, so print the output when it's ready.
 
 
-Getting Started
+#### Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 
-Prerequisites
+#### Prerequisites
 
 Ensure you have eclipse installed to pull the code and run the main class as "Java Application".
 Ensure that JDK is installed.
 Or you can build the executable jar and run it with "java -jar <jar_name> command.
 
-Running the tests
+#### How to run
 
+Build using maven
+```
+mvn clean install
+```
+If you want to skip the JUnit test cases
+```
+mvn clean install -DskipTests=true
+```
+Executable JAR will be generated in the <project-directory>/target
+To execute the runnable JAR:
+```
+java -jar .\traffic-signals-management-1.0.0-SNAPSHOT.jar
+```
 JUnits can run as "Run As -> JUnit Test
 
 
-Give an example
 
 Sample result:
 Run as "Java Application"
@@ -43,19 +55,19 @@ Sample output from console is:
 When the executable JAR is run with "java -jar" command, sample output in command prompt is:
 ![Alt text](https://github.com/PhaniMangisetti/traffic-signals-management/blob/master/img/sampleOutput.JPG?raw=true "Executable Jar Output")
 
-Deployment
+#### Deployment
 Since this is a simple executable JAR, there is no deployment instructions.
 But, if needed, we can build a WAR deployable project and deploy this app on a light weight application server like tomcat/jetty etc.
 
-Built With
+#### Built With
 
 Eclipse STS - IDE
 Maven - Dependency Management
 
-Authors
+#### Authors
 
 Phanikumar Mangisetti
 
-License
+#### License
 
 None
