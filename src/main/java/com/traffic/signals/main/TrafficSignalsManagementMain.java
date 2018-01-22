@@ -5,7 +5,7 @@ import java.util.Map;
 
 import com.traffic.signals.vo.TrafficDetails;
 
-/**
+         /**
 	 * The Traffic Singals Management program implements an application that simply displays the state
 	 * of signals to the standard output for a 4-directioal junction withing any turning traffic.
 	 * Call the updateTrafficInfo method with 0 as currentCount to intialize the HashMap.
