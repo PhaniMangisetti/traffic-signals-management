@@ -9,6 +9,9 @@ import com.traffic.signals.vo.TrafficDetails;
 public class TrafficSignalsManagementMain {
 
 	/**
+	 * Call the updateTrafficInfo method with 0 as currentCount to intialize the HashMap.
+	 * Call the method again in a for loop, say 20 occurances to display the current state 
+	 * of the vehicles that gets accumulated at the signal.
 	 * @param args
 	 */
 	public static void main(String[] args) {
@@ -149,6 +152,7 @@ public class TrafficSignalsManagementMain {
 
 	// Utility method to set and increment the counter in all 4 directions (N, S, E & W)
 	/**
+	 * Utility method to increment the counter in all 4 directions (N, S, E & W).
 	 * @param trafficInfo
 	 */
 	public static void setAndIncrementTrafficInfo(Map<String, Integer> trafficInfo) {
@@ -159,6 +163,7 @@ public class TrafficSignalsManagementMain {
 	}
 
 	/**
+	 * Print method to log the result for each loop ineration.
 	 * @param trafficDetails
 	 */
 	@SuppressWarnings("unchecked")
