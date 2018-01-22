@@ -1,4 +1,4 @@
-#### Traffic Signals Management
+###### Traffic Signals Management
 
 This program controls the traffic signals for a four-way intersection. Initially, consider traffic flowing in straight lines only, no turns. The four directions are S(outhbound) and N(orthbound) on Snell Rd; and W(estbound) and E(astbound) on Weaver Rd. The traffic lights should obey the following rules:
 
@@ -43,8 +43,6 @@ To execute the runnable JAR:
 ```
 java -jar .\traffic-signals-management-1.0.0-SNAPSHOT.jar
 ```
-JUnits can run as "Run As -> JUnit Test
-
 
 
 Sample result:
