@@ -5,8 +5,12 @@ import java.util.Map;
 
 import com.traffic.signals.vo.TrafficDetails;
 
+
 public class TrafficSignalsManagementMain {
 
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		TrafficDetails trafficDetails = new TrafficDetails();
 
@@ -20,6 +24,10 @@ public class TrafficSignalsManagementMain {
 		}
 	}
 
+	/**
+	 * Initialize the trafficDetails HashMap and track the signal changes as key/value pairs. 
+	 * @param TrafficDetails
+	 */
 	public static void updateTrafficInfo(TrafficDetails trafficDetails) {
 
 		if ((Integer) trafficDetails.getStateData().get("currentCount") == 0) {
@@ -137,10 +145,12 @@ public class TrafficSignalsManagementMain {
 		// Increment the counter
 		trafficDetails.getStateData().put("currentCount",
 				(Integer) trafficDetails.getStateData().get("currentCount") + 1);
-		//return trafficDetails;
 	}
 
 	// Utility method to set and increment the counter in all 4 directions (N, S, E & W)
+	/**
+	 * @param trafficInfo
+	 */
 	public static void setAndIncrementTrafficInfo(Map<String, Integer> trafficInfo) {
 		trafficInfo.put("N", trafficInfo.get("N") + 1);
 		trafficInfo.put("S", trafficInfo.get("S") + 1);
@@ -148,6 +158,9 @@ public class TrafficSignalsManagementMain {
 		trafficInfo.put("W", trafficInfo.get("W") + 1);
 	}
 
+	/**
+	 * @param trafficDetails
+	 */
 	@SuppressWarnings("unchecked")
 	private static void printTrafficInfo(TrafficDetails trafficDetails) {
 		Map<String, Integer> trafficInfo = (Map<String, Integer>) trafficDetails.getStateData().get("trafficInfo");
