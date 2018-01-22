@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Built-By: phani
+Class-Path: lib/commons-lang-2.2.jar
+Build-Jdk: 1.8.0_161
+Created-By: Maven Integration for Eclipse
+Main-Class: com.traffic.signals.main.TrafficSignalsManagementMain
+
