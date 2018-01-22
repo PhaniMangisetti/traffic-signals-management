@@ -37,10 +37,10 @@ Give an example
 Sample result:
 Run as "Java Application"
 Sample output from console is:
-
+![Alt text](https://github.com/PhaniMangisetti/traffic-signals-management/blob/master/img/EclipseConsoleOutput.JPG?raw=true "Eclipse Console Output")
 
 When the executable JAR is run with "java -jar" command, sample output in command prompt is:
-![Alt text](https://github.com/PhaniMangisetti/traffic-signals-management/blob/master/img/sampleOutput.JPG?raw=true "Sample Output")
+![Alt text](https://github.com/PhaniMangisetti/traffic-signals-management/blob/master/img/sampleOutput.JPG?raw=true "Executable Jar Output")
 
 Deployment
 Since this is a simple executable JAR, there is no deployment instructions.
