@@ -1,4 +1,4 @@
-###### Traffic Signals Management
+## Traffic Signals Management
 
 This program controls the traffic signals for a four-way intersection. Initially, consider traffic flowing in straight lines only, no turns. The four directions are S(outhbound) and N(orthbound) on Snell Rd; and W(estbound) and E(astbound) on Weaver Rd. The traffic lights should obey the following rules:
 
@@ -55,11 +55,9 @@ When the executable JAR is run with "java -jar" command, sample output in comman
 
 #### Deployment
 Since this is a simple executable JAR, there is no deployment instructions.
-But, if needed, we can build a WAR deployable project and deploy this app on a light weight application server like tomcat/jetty etc.
 
 #### Built With
 
-Eclipse STS - IDE
 Maven - Dependency Management
 
 #### Authors
